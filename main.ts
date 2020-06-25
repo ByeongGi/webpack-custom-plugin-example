@@ -1,7 +1,4 @@
-export function test(){
-  const test = '';
-}
+import './app.css';
 
-export function test2(){
-  const test = '';
-}
+const app = <HTMLElement>document.getElementById('app');
+app.innerHTML = 'Hello World!';
